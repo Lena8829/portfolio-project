@@ -2,7 +2,7 @@
   padding: 20px 0;
   background-color: transparent;
 }
-.nav {
+/* .nav {
   display: flex;
   justify-content: space-between;
 }
@@ -42,4 +42,4 @@
 }
 .nav-link.active::after {
   background: #747bff;
-}
+} */
