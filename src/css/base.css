@@ -4,10 +4,10 @@
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  font-weight: 400;
-
+  font-weight: 500;
+  /* 
   color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  background-color: rgba(255, 255, 255, 0.87); */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -22,6 +22,9 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+  background-color: #1c1d20;
+  color: white;
+  font-family: 'Inter Tight', sans-serif;
 }
 
 main {
@@ -29,4 +32,24 @@ main {
 }
 main:has(.back-link) {
   text-align: center;
+}
+
+/* Styles for Mobile devices */
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
 }
