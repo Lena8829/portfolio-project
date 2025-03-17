@@ -1,27 +1,65 @@
 <header class="header">
   <div class="header-container">
 
-    <div class="logo-box">
-      <img src="./img/header/logo-img@1x.png" alt="avatar" width="80" height="80" loading="lazy">
+    <div class="logo-box-menu">
+      <div class="logo-box">
 
-      <svg class="jefferson" width="84" height="19">
-        <use href="./img/icons/sprite.svg#icon-jefferson-logo"></use>
-      </svg>
+        <picture>
 
+          <source srcset="./img/header/logo-img@1x.png 1x, .img/header/logo-img@2x.png 2x">
+
+          <source srcset="./img/header/logo-img@1x_wp.webp 1x, ./img/header/logo-img@2x_png_wp.webp 2x">
+
+
+          <img src="./img/header/logo-img@1x.png, " alt="avatar" width="80" height="80" loading="lazy">
+
+        </picture>
+
+        <img src="./img/header/logo-img@1x.png, " alt="avatar" width="80" height="80" loading="lazy">
+
+        <svg class="jefferson" width="84" height="19">
+          <use href="./img/icons/sprite.svg#icon-jefferson-logo"></use>
+        </svg>
+
+      </div>
+
+      <button class="burger-menu-btn">
+        <svg class="burger-icon" width="28" height="28">
+          <use href="./img/icons/sprite.svg#icon-burger-menu"></use>
+        </svg>
+      </button>
     </div>
 
-    <button class="burger-menu-btn">
-      <svg class="burger-icon" width="28" height="28">
-        <use href="./img/icons/sprite.svg#icon-burger-menu"></use>
-      </svg>
-    </button>
+    <div class="mobile-menu">
+
+      <button class="close-menu-btn">
+        <svg class="close-btn-icon" width="28" height="28">
+          <use href="./img/icons/sprite.svg#icon-close-btn"></use>
+        </svg>
+      </button>
+
+      <nav class="mobile-menu-nav">
+        <ul class="mobile-menu-list">
+          <li class="mob-menu-item">
+            <a href="#about-me" class="mob-menu-nav-link">About me</a>
+          </li>
+          <li class="mob-menu-item">
+            <a href="#benefits" class="mob-menu-nav-link">Benefits</a>
+          </li>
+          <li class="mob-menu-item">
+            <a href="#projects" class="mob-menu-nav-link">Projects</a>
+          </li>
+          <li class="mob-menu-item">
+            <a href="#FAQ" class="mob-menu-nav-link">FAQ</a>
+          </li>
+
+        </ul>
+      </nav>
 
 
-    <button>
-      <svg class="jefferson" width="84" height="19">
-        <use href="./img/icons/sprite.svg#icon-close-btn"></use>
-      </svg>
-    </button>
+      <a href="#wark-together" class="order-btn-mob">Order the project</a>
+
+    </div>
 
   </div>
 </header>

@@ -1,8 +1,23 @@
 .header {
+}
+
+.header-container {
+  display: flex;
   padding: 20px 0;
+  width: 100%;
   background-color: transparent;
 }
 
-button svg {
-  fill: none !important;
+.logo-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.jefferson {
+  display: flex;
+}
+
+.logo-box-menu {
+  display: flex;
+  align-items: flex-start;
 }
